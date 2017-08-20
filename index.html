@@ -1,0 +1,76 @@
+<!doctype html>
+<html class="no-js" lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>default title</title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <meta content="telephone=no" name="format-detection">
+    <!-- This make sence for mobile browsers. It means, that content has been optimized for mobile browsers -->
+    <meta name="HandheldFriendly" content="true">
+    <!--[if (gt IE 9)|!(IE)]><!--><link href="css/main.css" rel="stylesheet" type="text/css"><!--<![endif]-->
+    
+    <meta property="og:title" content="" />
+    <meta property="og:url" content="" />
+    <meta property="og:description" content="" />
+    <meta property="og:image" content="" />
+    <meta property="og:image:type" content="image/jpeg" />
+    <meta property="og:image:width" content="500" />
+    <meta property="og:image:height" content="300" />
+    <meta property="twitter:description" content="" />
+    <link rel="image_src" href="" />
+
+    <script>
+        (function(H){H.className=H.className.replace(/\bno-js\b/,'js')})(document.documentElement)
+    </script>
+    
+</head>
+
+<body class="page">
+
+
+<section class="page__wrapper">
+
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+    
+        </div><!-- /.container-fluid -->
+    </nav>    <div class="container">
+        <div class="page-header">
+            <h1>Контактные данные</h1>
+        </div>
+        <form id="myForm" action="json/success.json">
+            <div class="form-group">
+                <label for="fio">ФИО:</label>
+                <input type="text" name="fio" class="form-control" id="fio">
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" name="email" class="form-control" id="email">
+            </div>
+            <div class="form-group">
+                <label for="phone">Телефон:</label>
+                <input type="text" name="phone" class="form-control" id="phone">
+            </div>
+        
+            <button id="submitButton" type="submit" class="btn btn-primary">Отправить</button>
+        
+            <div id="resultContainer"></div>
+        </form>    </div>
+
+    <div class="page__buffer"></div>
+
+</section>
+
+<footer class="page__footer">
+    <div class="footer"></div></footer>
+
+<script src="js/plugins.js"></script>
+<script src="index.js"></script>
+</body>
+
+</html>
